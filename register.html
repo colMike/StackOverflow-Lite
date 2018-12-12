@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Register</title>
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/register.css">
+	</head>
+	<body>
+		<div class="custom-padding">
+        	<nav>
+            	<div class="logo">StackOverflow-Lite</div>
+            	<ul class="menu-area">
+                	<li><a href="">Sign Up</a></li>
+                	<li><a href="">Log In</a></li>                
+            	</ul>
+        	</nav>
+    	</div>
+
+		
+		<div class="entire">	
+				<h1>Create your Stack Overflow Lite Account</h1>
+				<div id="form">
+					<form>				
+						<label>
+							<h4>Display Name</h4>
+							<input name= "first" id = "txtBox" type="text" placeholder="example: J. Doe" required>	
+						</label>
+			
+						<label>
+							<h4>Email</h4>
+							<input type="email" id = "txtBox" name="email" placeholder="sample@email.com" required>
+						</label>
+
+						<label>
+							<h4>Password</h4>
+							<input type="password" id = "txtBox" name="password" pattern=".{6,12}" title="Password must be between 6 and 12 characters" placeholder="*******">
+						</label>
+				
+						<label>
+							<p id="terms_and_conditions">
+								<input type="checkbox" name="agreed" id="agreed"> 
+								I agree to the terms and conditions.
+							</p> 
+						</label>
+					</form>
+						<input class="button" type="submit" name="Sign up">
+				</div>
+				<p>Already have an account?<a href="login.html"><strong> Sign In</strong></a> </p>
+		</div>
+
+		<div class="footer-dark">
+			<footer>
+				<p id="copyright">StackOverflow-Lite. © 2018. All Rights Reserved</p>
+			</footer>
+		</div>
+	</body>
+</html>
