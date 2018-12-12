@@ -111,7 +111,7 @@ a{
 }
 
 .footer-dark{
-	position: relative;
+	position: sticky;
   	width: 100%;
   	background-color: #008CBA;
   	color: white;
