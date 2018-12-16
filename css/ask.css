@@ -253,3 +253,7 @@ div .tags{
     background: #008CBA;
     color: white;
 }
+
+#answerTab{
+	text-decoration: none;
+}
