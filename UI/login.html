@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log In</title>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+	<div class="custom-padding">
+        <nav>
+            <div class="logo">StackOverflow-Lite</div>
+            <ul class="menu-area">
+                <li><a href="">Sign Up</a></li>
+                <li><a href="">Log In</a></li>                
+            </ul>
+        </nav>
+    </div>
+	<div class="entire">
+		<h1>Welcome Back to Stack Overflow-Lite!</h1>
+		<form>			
+		<div id="form">
+			<label>
+				<h4>Email</h4>
+				<input type="email" id = "txtBox" name="email" placeholder="sample@email.com" required>
+			</label>
+
+			<label>
+				<h4>Password</h4>
+				<input type="password" id = "txtBox" name="password" pattern=".{6,12}" title="Password must be between 6 and 12 characters" placeholder="*******">
+				<p id="forgotPass"><a href="">forgot your password?</a></p>
+			</label>
+						
+			<input class="button" type="submit" name="Sign up">
+		</div>
+		<p>Don't have an account?<a href="register.html"><strong> Sign Up</strong></a> </p>
+				
+		</form>
+	</div>
+
+	<div class="footer-dark">
+		<footer>
+			<p id="copyright">StackOverflow-Lite. © 2018. All Rights Reserved</p>
+		</footer>
+	</div>
+</body>
+</html>
